@@ -1,0 +1,8 @@
+<html t:type="layout" title="About it-250-sestidomaci"
+      xmlns:t="http://tapestry.apache.org/schema/tapestry_5_3.xsd"
+      xmlns:p="tapestry:parameter">
+    
+    <t:beaneditform object="soba" exclude="idsobe"/>
+    <t:grid source="listaSoba" exclude="idsobe"/>
+
+</html>
